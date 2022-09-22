@@ -18,6 +18,7 @@ OPS SUMMARY:
 """
 
 import random
+import math
 
 krewes = {2: ["hwang30", "wliu30", "iyeung30"],
           7: ["dchen30", "dakhmedova30", "scowan30"],
@@ -29,4 +30,11 @@ def chooseDevo():
     data = krewes[randomPd]
     return data[random.randint(0, len(data) - 1)]
 
+def chooseDevoRandom():
+    periods = [2, 7, 8]
+    randomPd = periods[math.floor(random.random() * 3)]
+    data = krewes[randomPd]
+    return data[math.floor(random.random() * len(data))]
+
 print(chooseDevo())
+print(chooseDevoRandom())
