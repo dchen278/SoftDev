@@ -16,11 +16,13 @@ QCC:
 OPS SUMMARY:
  1. Given krewes = {dict(int : list)}, we randomly chose a period (2, 7, or 8) using random.choice,
     and printed the random period.
- 2. We retreived the corresponding list from the randomly selected period
+ 2. We retrieved the corresponding list from the randomly selected period
     by setting it to a temporary variable called "data."
  3. We returned a randomly selected Devo by using random.randint.
- 4. We also created another function that utilizes random.random and floors the output,
-    which essentially achieves the same outcome.
+ 4. We also created two more functions:
+        - One solely utilizes random.choice to retrieve the period and Devo.
+        - The other solely utilizes random.random and floors the output to retrieve the period and Devo.
+    Both essentially achieve the same outcome.
 """
 
 import random
