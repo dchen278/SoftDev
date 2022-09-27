@@ -57,7 +57,7 @@ def chooseDevoWithChoice():
 
 def chooseDevoWithRandom():
     periods = [2, 7, 8]
-    randomPd = periods[math.floor(random.random() * 3)]
+    randomPd = periods[math.floor(random.random() * len(periods))]
     print("Random Period: ", randomPd)
     data = krewes[randomPd]
     return data[math.floor(random.random() * len(data))]
