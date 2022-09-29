@@ -1,4 +1,5 @@
 """ 
+Team Don't Worry
 David Chen, William Guo
 SoftDev
 05_bitstream
@@ -17,7 +18,14 @@ import random
 import math
 import io
 
-with io.open("./krewes.txt",'r',encoding='utf8') as f:
+# krewes = {
+#     2: [{'NICHOLAS': 'EUGENE'}, {'ANTHONY': 'EUGENE'}], 
+#     7: [{'ANTHONY': 'EUGENE'}, {'ANTHONY': 'EUGENE'}], 
+#     8: [{'NICHOLAS': 'EUGENE'}, {'NICHOLAS': 'EUGENE'}]
+# }
+
+
+with io.open("./krewes.txt", 'r', encoding='utf8') as f:
     krewes_data = f.read()
 
 krewes = {2: [], 7: [], 8: []}
@@ -26,9 +34,11 @@ devo_list = krewes_data.split("@@@")
 
 for devo in devo_list:
     info = devo.split("$$$")
+    print(info)
     krewes[int(info[0])].append({info[1]: f"{info[2]}"})
 
 print(f"krewes: {krewes} \n")
+
 
 def choose_devo_with_rand_int():
     periods = [2, 7, 8]
@@ -49,7 +59,6 @@ def choose_devo_with_choice():
     print(f"Duckie: {list(devo_data.values())[0]}")
 
 
-
 def choose_devo_with_random():
     periods = [2, 7, 8]
     random_period = periods[math.floor(random.random() * len(periods))]
@@ -58,6 +67,7 @@ def choose_devo_with_random():
     print(f"Period: {random_period}")
     print(f"Random Devo: {list(devo_data.keys())[0]}")
     print(f"Duckie: {list(devo_data.values())[0]}")
+
 
 print("RANDOM.RANDINT:")
 choose_devo_with_rand_int()
