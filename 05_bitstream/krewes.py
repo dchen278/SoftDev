@@ -27,6 +27,7 @@ import io
 
 with io.open("./krewes.txt", 'r', encoding='utf8') as f:
     krewes_data = f.read()
+    f.close()
 
 krewes = {2: [], 7: [], 8: []}
 
