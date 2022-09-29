@@ -40,6 +40,11 @@ krewes = {
 }
 
 
+krewes = {
+    2: [{"NICHOLAS": "EUGENE"}, {"ANTHONY": "EUGENE"}]
+}
+
+
 def chooseDevoWithRandInt():
     periods = [2, 7, 8]
     randomPd = periods[random.randint(0, len(periods) - 1)]
