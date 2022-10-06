@@ -1,14 +1,13 @@
-# David Chen, Kevin Li, 
+# Karen Shekyan
 # SoftDev
-# Oct 2022
+# Oct 6, 2022
 
 from flask import Flask
-app = Flask(__name__) # create an instance of our flask app
+app = Flask(__name__) # Initialize app to an instance of Flask
 
-@app.route("/") # ...
+@app.route("/") # Function decorator; hello_world() belongs to this route
 def hello_world():
-    print(__name__) # ...
-    return "No hablo queso!"  # ...
+    print(__name__) # Print the name of the Python module being run
+    return "No hablo queso!"  # Outputs this string to route
 
-app.run()  # ...
-                
+app.run()  # Runs app?

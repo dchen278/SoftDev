@@ -1,6 +1,6 @@
-# Clyde 'Thluffy' Sinclair
+# Karen Shekyan
 # SoftDev
-# Oct 2022
+# Oct 6, 2022
 
 from flask import Flask
 app = Flask(__name__) #create instance of class Flask
@@ -10,4 +10,3 @@ def hello_world():
     return "No hablo queso!"
 
 app.run()
-
