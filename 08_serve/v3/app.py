@@ -13,3 +13,8 @@ def hello_world():
 
 app.debug = True
 app.run()
+
+'''
+debug causes the page to be reloaded when code is changed, but crashes if there
+are syntax errors
+'''
