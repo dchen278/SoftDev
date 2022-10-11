@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+}
+
+th {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 2px solid black;
+}
+
+td {
+  /* text-align: center; */
+  /* border-left: 3px solid black; */
+  border-right: 2px solid black;
+  border-bottom: 1px solid gray;
+}
