@@ -1,0 +1,18 @@
+Observations
+    - the static/foo file with no file extension gets downloaded when we tried going to its page
+    - the foo.html file has its contents displayed (interpreted properly as html)
+
+Prediction: .py files in the static folder will be downloaded just like files with no extension
+    - the contents of the .py file are displayed on the website
+
+Prediction: A method decorated with the route of static/foo will override what's in static/foo
+    - the text returned by the decorated method is displayed on the website instead of the contents of static/foo
+
+Prediction: .md and files in static will get downloaded because the text on the website is displayed using html, so a different format might not work
+    - .md files did get downloaded but maybe not for the reason mentioned
+    - .txt files got displayed, which is strange since the plaintext static/foo file got downloaded
+    - .json files also get displayed
+    - .csv, .java, and .exe got downloaded
+
+Prediction: the files in static get run once upon booting up the website and not upon reloading
+    - files in static don't get run AT ALL, EVER
