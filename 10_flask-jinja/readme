@@ -1,0 +1,8 @@
+Q0) Prediction:
+  - The server will crash
+Observation:
+  - The server starts and / displays correctly, but accessing /my_foist_template causes an error
+
+Q1) http://<IP>/my_foist_template
+
+Q2) The first arg is the template file, the others are values for the variables defined in the template
