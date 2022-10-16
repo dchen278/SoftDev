@@ -1,0 +1,15 @@
+Prediction:
+  - <form action="/auth"> causes the server to run the function decorated with @app.route("/auth").
+  - input type="submit" creates a submit button
+  - input type="text" creates a text field
+  - print(request.args) displays user input in the terminal
+
+Observations:
+  - request.args prints info entered by user on the page
+  - submitting info performs a GET request, changing the URL to display info
+  - leading and trailing whitespace is ignored in <form action="/auth ">, but not in @app.route("/auth ")
+  - removing "GET" from the methods field in app.route() causes that route to not be accessible in browser
+
+Questions:
+  - What the '?' do in the URL for /auth?
+  - What is a POST request and what it do?
