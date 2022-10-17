@@ -1,0 +1,9 @@
+# Disturbed Window Monsters
+### Roster: David Chen, William Guo, Marc Jiang
+SoftDev
+Oct 17 2022
+
+
+DISCO:
+- We can specify the method of a form using the `method` attribute
+- In order to get the data posted to the server, we need to use `request.form` instead of `request.args`

@@ -1,6 +1,7 @@
-# David Chen
+# David Chen, William Guo, Marc Jiang
+# Disturbed Window Monsters
 # SoftDev
-# Oct 15 2022
+# Oct 17 2022
 
 from flask import Flask  # facilitate flask webserving
 from flask import render_template  # facilitate jinja templating
@@ -52,14 +53,14 @@ def authenticate():
     print(app)
     print("***DIAG: request obj ***")
     print(request)
-    print("***DIAG: request.args ***")
+    print("***DIAG: request.form ***")
     print(request.form)  # displays entered info as dict
-    print("***DIAG: request.args['username']  ***")
+    print("***DIAG: request.form['username']  ***")
     print(request.form['username'])
     print("***DIAG: request.headers ***")
     # metadata for the server about request+machine requesting
     print(request.headers)
-    return f"Waaaa hooo HAAAH {request.form['username']}"  # response to a form submission
+    return render_template('response.html', username=request.form['username'], method=request.method)
 
 
 if __name__ == "__main__":  # false if this file imported as module
