@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    background: #bebebe;
+    color: white;
+    margin-bottom: 0;
+}
+
+.list {
+    color: #dcdccd;
+}
+
+.main {
+    display: flex;
+    background-color: #767676;
+}
+
+.left-col {
+    margin: .5%;
+    flex: 1;
+}
+
+.right-col {
+    flex: 4;
+}
+
+body {
+    background: #565656;
+}
+
+.footer {
+    background-color: #313131;
+    color: gray;
+    text-align: right;
+    margin-top: 0;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 5;
+}
