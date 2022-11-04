@@ -7,20 +7,29 @@
  -->
 <html>
 
-  <head>
-    <title>YO WASSUP</title>
-  </head>
+<head>
+  <title>YO WASSUP</title>
+</head>
 
-  <body>
-   <div>
+<body>
+  <div>
+    <h2>Team Name: Disturbed Window Monsters
+      <br>
+      Roster: David, William, Marc
+    </h2>
+    {% if status == "Successful" %}
     <h1>
-      {% if status %}
       Welcome to the home of Disturbed Window Monsters!
-      {% endif %}
     </h1>
+    <form method="POST" action="/logout">
+      <button type="submit" style="position: absolute; top: 0; right: 0; padding:10px; background-color: aquamarine;">
+        Logout
+      </button>
+    </form>
+    {% endif %}
     <p>Login Status: {{ status }}</p>
-   </div>
-    <br>
-  </body>
+  </div>
+  <br>
+</body>
 
 </html>
