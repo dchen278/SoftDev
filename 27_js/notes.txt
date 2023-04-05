@@ -1,0 +1,18 @@
+Team David and Nakib (DAN) | David Chen, Nakib Abedin
+SoftDev pd08
+K27 -- Basic functions in JavaScript
+2023-04-04w
+Time Spent: 0.5 hr
+
+DISCO
+-----------------------------------------------------------------
+* Functions in javascript can be defined using "function," it serves a similar purpose as lambda 
+* Outputs using console.log() appear in the dev console on the brower
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Why do javascript outputs get sent to the dev console log? Is there any way to send outputs to the terminal?
+* In what ways does javascript syntax differ from that of java?
+=================================================================
+
