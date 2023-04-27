@@ -1,0 +1,14 @@
+DAN: David Chen and Nakib Abedin
+SoftDev pd8
+k30 -- JS Paint
+2023-04-24
+Time Spent: 1.0 hr
+
+Disco
+1. After passing in e as a function parameter, it can be treated like an object. We can access it's attributes by using the . operand
+2. A circle can be drawn by using an arc that begins at angle 0 and ends at angle 2pi (which is the circumference of the circle)
+3. To get a circle to appear, you need to use the exact value of Pi with Math.PI or else the circle will not appear
+
+QCC
+1. Are there any built in mechanisms to draw a circle?
+2. Why didn't the function calls toggleMode and wipeCanvas work when we called toggleMode() and wipeCanvas()

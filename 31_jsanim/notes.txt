@@ -1,0 +1,13 @@
+Nakib Abedin, Weichen Liu
+SoftDev pd8
+K31 -- animation in canvas JS
+2023-04-26w
+
+DISCO
+- We set requestID = window.requestAnimationFrame(drawDot) after we cancel animation frames
+- All you need to pause the animation is window.requestAnimationFrame(drawDot)
+- StrokeStyle is what allows you to have the border on the edge of your circle
+  for Nakib's last homework the strokeStyle and the fillStyle were both red so the border was not visible
+
+QCC
+- How do we get to the turqoise color on the board?

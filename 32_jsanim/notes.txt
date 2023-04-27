@@ -1,0 +1,12 @@
+kibby guoblers: nakib, Jacob Guo
+SoftDev pd8
+K32 -- animation in canvas JS
+2023-04-27t
+Time Spent: 0.5 hrs
+
+DISCO:
+1. You can find the dimensions of an image by inspecting its properties
+2. You need to accomdate for the height and width of your moving DVD logo when judging when to bounce. This can be done by subtracting the width and the height from the width and height of the overall canvas
+
+QCC:
+1. What was the xVel and yVel values from the demo in class?
